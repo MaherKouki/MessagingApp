@@ -18,7 +18,8 @@ import java.util.List;
 @NoArgsConstructor
 @Entity
 @Table(name = "users")
-
+@NamedQuery(name="" ,
+query="")
 public class User extends BaseAuditingEntity {
 
 
